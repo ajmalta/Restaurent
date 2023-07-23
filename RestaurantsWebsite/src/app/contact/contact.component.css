@@ -1,0 +1,79 @@
+.contact{
+background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  height:100vh;
+  width: 100%;
+}
+.contact-info {
+    margin-top: 5rem;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin: 0.5rem 0;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  /* Optional: Add some styling to the header */
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Optional: Add some styling to the contact info sections */
+  /* .contact-info {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  } */
+  
+  
+  
+  /* end */
+
+  .left{
+    width: 33%;
+  }
+  .center{
+    width: 33%;
+  }
+  .right{
+    width: 34%;
+  }
+ @media only screen and (max-width: 768px) {
+    .contact{
+        display: inline-block;
+        padding: 5px;
+      }
+      .left{
+        width: 100%;
+       
+      }
+      .center{
+        width: 100%;
+      }
+      .right{
+        width: 100%;
+        
+      }
+      .contact-info {
+        margin-top: 2rem;
+      }
+  }

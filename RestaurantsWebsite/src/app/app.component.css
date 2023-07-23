@@ -1,90 +1,33 @@
 
-@media (min-width: 768px) {
-  .navbar-nav {
-    margin-left: auto; 
-    margin-right: 120px;
-    
+#loading{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
     }
-    .navbar-nav a{
-      color: white;
-      text-transform: uppercase;
-      margin: 0 20px 0 0;
-      }
-}
-
-.hero {
-  background-image: url("../assets/homepage.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 550px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition:  background-image 0.15s ease-in-out;
-  background-size: cover;
-}
-
-.hero-content {
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.hero-content h1{
-  text-align: center;
-  color: #fff;
-  
-}
-
-.hero-content h3{
-  text-align: center;
-  font-size: 60px !important;
-}
-
-.btn {
-  display: inline-block;
-  background-color: #ff6600;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-.about {
-  background-color: #f7f7f7;
-  padding: 50px;
-  text-align: center;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-@media only screen and (max-width: 768px) {
-  .hero-content h3{
-    text-align: center;
-    font-size: 20px !important;
-    margin-bottom: 20px;
-  }
-  .hero-content {
-   
-    margin-bottom: 100px;
-  }
-}  
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
 
 
 
-@media (max-width: 768px) {
-  .navbar .navbar-nav {
-      display: inline-block;
-      float: none;
-      vertical-align: top;
-  }
 
-  .navbar .navbar-collapse {
-      text-align: center;
-  }
-}
+
+
+
+
+
+
+
 
