@@ -1,1 +1,9 @@
-
+<div class="main">
+    <div class="checkk">
+<div *ngFor="let Fooditems of Fooditems" class="card" >
+<img src="{{Fooditems.img}}" style="width:100%px;height: 120px;object-fit: fill;" alt="">
+<h4>{{Fooditems.name}}</h4>
+<h6>Price:{{Fooditems.price}}</h6>
+</div>
+</div>
+</div>

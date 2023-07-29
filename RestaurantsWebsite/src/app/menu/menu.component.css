@@ -1,0 +1,24 @@
+.main{
+    width: 100%;
+    display: flex;
+}
+.main .card{
+    text-align: center;margin: 5px 15px 5px 15px;
+    background-color: rgb(128, 126, 126);
+    color:whitesmoke;
+    width: 330px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main{
+     display: block;
+     width: 100%;
+    }
+    .main .card{
+        text-align: center;margin: 5px 35px 5px 15px;
+        background-color: rgb(128, 126, 126);
+        color:whitesmoke;
+        width:100%;
+    }
+
+}
