@@ -5,7 +5,7 @@
     /* background-image: url("../assets/homepage.jpg"); */
     background-size: cover;
     background-position: center;
-    height: 550px;
+    height:100vh;
     display: flex;
     align-items: center;
     justify-content: center;

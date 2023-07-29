@@ -17,7 +17,7 @@ export class HomeComponent {
   ngOnInit():void {
     setInterval(() => {
       this.changeBackgroundImage();
-    }, 5000);
+    }, 2500);
   
   }
 
