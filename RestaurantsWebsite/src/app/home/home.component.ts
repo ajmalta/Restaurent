@@ -9,7 +9,7 @@ export class HomeComponent {
   title = 'RestaurantsWebsite';
 
   backgroundImageIndex = 0;
-  backgroundImages = ['../assets/homepage.jpg','../assets/homelunch.jpg','../assets/homedinner.jpg'];
+  backgroundImages = ['../assets/homepage.jpg','../assets/homelunch.jpg','../assets/homedinner.jpg','../assets/homeimage.jpg'];
 
   constructor(private renderer: Renderer2){ }
 

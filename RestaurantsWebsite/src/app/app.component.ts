@@ -1,6 +1,5 @@
 import { Component,OnInit ,ElementRef, Renderer2, ViewChild } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -13,7 +12,7 @@ constructor(){}
   ngOnInit(): void {
    setTimeout(()=>{
     this.loader=false
-   },10000)
+   },3000)
   }
 
 }
